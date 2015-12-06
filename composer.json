@@ -1,0 +1,23 @@
+{
+    "name": "respect/event-proxy",
+    "description": "A proxy for dealing with respect/data pre/post insert, update and delete events.",
+    "type": "library",
+    "homepage": "http://respect.li",
+    "license": "BSD Style",
+    "authors": [
+        {
+            "name": "Nickolas Daniel da Silva",
+            "email": "nickolas@phpsp.org.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "respect/data": "~0.2.2",
+        "symfony/event-dispatcher": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Respect\\EventProxy\\": "library/EventProxy"
+        }
+    }
+}
